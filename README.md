@@ -11,10 +11,10 @@ For now, it takes some manual work to make it work, but I am planning to make it
 1. Go to your user profile and click on album, or use the link and replace "[username]" with your username: https://waifucards.app/user/[username]?items=120&collection=has#cards-box
 * Expand the view to 120 cards, or use the link and replace "[username]" with your username.
 2. Inspect one of the waifu's:
-![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/Inspect.png "Inspect waifu")
+![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/images/Inspect.png "Inspect waifu")
 
 3. Find the "card-frame" class and copy the inner HTML of the class:
-![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/inner-HTML.png "Inner HTML")
+![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/images/inner-HTML.png "Inner HTML")
 
 4. Paste it in the "cards.txt" file.
 5. (Optional) If you have more than 120 cards, do it all over again, but on the next page and append the cards.txt file with the next page page etc.
