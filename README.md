@@ -14,7 +14,7 @@ For now, it takes some manual work to make it work, but I am planning to make it
 ![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/Inspect.png "Inspect waifu")
 
 3. Find and copy the inner HTML:
-![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/inner-html.png "Inner HTML")
+![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/inner-HTML.png "Inner HTML")
 
 4. Paste it in the "cards.txt" file.
 5. (Optional) If you have more than 120 cards, do it all over again, but on the next page and append the cards.txt file with the next page page etc.
