@@ -13,7 +13,7 @@ For now, it takes some manual work to make it work, but I am planning to make it
 2. Inspect one of the waifu's:
 ![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/Inspect.png "Inspect waifu")
 
-3. Find and copy the inner HTML:
+3. Find the "card-frame" class and copy the inner HTML of the class:
 ![alt text](https://raw.githubusercontent.com/LavaLaugh/waifucards-scraper/main/inner-HTML.png "Inner HTML")
 
 4. Paste it in the "cards.txt" file.
