@@ -19,5 +19,5 @@ For now, it takes some manual work to make it work, but I am planning to make it
 4. Paste it in the "cards.txt" file.
 5. (Optional) If you have more than 120 cards, do it all over again, but on the next page and append the cards.txt file with the next page page etc.
 6. Run main.py
-7. Open cards.csv and use "|" as a custom delimiter (Some shows use a comma and the pipe symbol was the only real option).
+7. Open cards.csv and use "|" as a custom delimiter (Some anime use a comma in the title, so the pipe symbol was the only real option).
 8. Enjoy!
