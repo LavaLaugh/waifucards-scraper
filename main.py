@@ -41,16 +41,22 @@ def list_of_characters(content, name_pattern, fd):
                 controlstring += writestring
                 writestring = ""
     
-        print(result)
+        return result
 
 
 def list_of_cards(content_lines, name_pattern, number_pattern):
+    result = ""
     for i in content_lines:
         if "card-dropdown" in i:
             name_matches = re.findall(name_pattern, i)
             number_matches = re.findall(number_pattern, i)
+            if number_matches != []:
+                number = number_matches[0].replace('/', '')
+                numberlist = list(number)
+                numberlist[-3] = ""
+                card_id = "".join(numberlist)
             print(name_matches)
-            print(number_matches)
+            print(card_id)
             
 
 list_of_cards(content_lines, name_pattern, number_pattern)
