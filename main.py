@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 
 f = open("cards.txt", "r")
 content_lines = f.readlines()
@@ -55,7 +56,14 @@ def list_of_cards(content_lines, name_pattern, number_pattern):
                 numberlist = list(number)
                 numberlist[-3] = ""
                 card_id = "".join(numberlist)
-            print(name_matches)
+                
+            if name_matches != []:
+                name = name_matches[0][0]
+                show = name_matches[1][1]
+                
+            
+            print(name)
+            print(show)
             print(card_id)
             
 
